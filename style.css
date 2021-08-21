@@ -2,22 +2,28 @@ body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: large;
     font-weight: bold;
-    color:black;
+    color:white;
     height: 542px;
-    background-color: #fff;
+    background-color: black;
+    background-image: radial-gradient(grey,black);
 }
 .Main_div{
    text-align: center; 
 }
 .inner_div{
+    
     padding: 20px;
     width: 100%;
     display: flex;
     justify-content: center;
 }
+.btn{
+    margin: 10px;
+    
+}
 .Heading{
     padding-top: 20px;
-    color:black;
+    color:white;
     font-size: 40pt;
     font-weight: bolder !important;
 
@@ -37,12 +43,16 @@ body{
     width: 100%;
     display: flex;
     justify-content:space-between;
+    background-color: grey;
+    background-color:black;
 }
 
 .spanText{
     display: inline-block;
     border: none ;
-    background-color: #fff;
+    background-color:black;
+    border: none;
+    color: white;
 }
 .Footer {
     color: white;
@@ -60,5 +70,9 @@ li{
     box-shadow: 5px 10px 8px #888888;
     margin-top: 20px;
     
+
+}
+.list_div1{
+    background-color: grey;
 
 }
